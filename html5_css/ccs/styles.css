@@ -1,3 +1,12 @@
 body {
-    background-color: blue;
+    background-color:#B3310D ;
+}
+
+#conatiner {
+    background-color: #592918;
+    width: 950px;
+    margin: 20px auto;
+    border: 2px solid #A6974B; 
+    padding: 20px;
+    border-radius: 5px;
 }
