@@ -10,3 +10,32 @@ body {
     padding: 20px;
     border-radius: 5px;
 }
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    color: #A6974B;
+    font-size: 30px
+}
+
+nav {
+    text-align: center;
+    border-top: 4px solid #592918;
+    border-bottom: 4px solid #592918;
+    padding: 20px; ;
+}
+
+nav a {
+    color:#592918;
+    font-size: 30px;
+    margin: 0 20px;;
+}
+
+nav a:hover {
+    color: chocolate;
+    text-decoration: none;
+
+}
