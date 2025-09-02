@@ -2,7 +2,7 @@ body {
     background-color:#B3310D ;
 }
 
-#conatiner {
+#container {
     background-color: #592918;
     width: 950px;
     margin: 20px auto;
@@ -23,13 +23,13 @@ header h1 {
 
 nav {
     text-align: center;
-    border-top: 4px solid #592918;
-    border-bottom: 4px solid #592918;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
     padding: 20px; ;
 }
 
 nav a {
-    color:#592918;
+    color:white;
     font-size: 30px;
     margin: 0 20px;;
 }
