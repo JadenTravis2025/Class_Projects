@@ -45,6 +45,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav li {
@@ -76,6 +77,7 @@ main h2 {
 
 .multi_col {
     display: flex;
+    flex-wrap: wrap; /* prevents overflow on smaller screens */
 }
 
 section,
@@ -103,10 +105,9 @@ section img {
 footer {
     padding: 40px 0;
     text-align: center;
-
 }
 
-.img-style{
+.img_style { /* fixed from .img-style to match your HTML class */
     width: 75%;
     border: 2px solid #f1f1f1;
     border-radius: 10px;
@@ -114,16 +115,18 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-hr{
-    border: 1px #f1f1f1;
+
+hr {
+    border: 1px solid #f1f1f1; /* added 'solid' for valid syntax */
 }
 
 iframe {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
-    border: 2px #f1f1f1;
+    border: 2px solid #f1f1f1; /* added 'solid' for valid syntax */
 }
+
 .about_content {
     text-align: center;
 }
