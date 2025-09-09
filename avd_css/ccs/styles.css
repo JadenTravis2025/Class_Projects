@@ -1,11 +1,129 @@
 body {
-    background-color: #010D00;
+    background-color: #0b0d17; /* deep space navy */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #f1f1f1; /* moonlight white */
+}
+
+a:hover {
+    color: #ffd700; /* lunar gold */
+    text-decoration: none;
 }
 
 #container {
-    background-color: #590505;
+    background-color: #1f2a44; /* starfield blue */
     width: 65%;
     margin: 20px auto;
-    border: 4px solid #F25116;
+    border: 4px solid #f1f1f1;
     padding: 20px;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #ffd700; /* Artemis gold */
+}
+
+nav {
+    text-align: center;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #003366; /* NASA blue */
+    color: #f1f1f1;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+nav li a:hover {
+    background-color: #f1f1f1;
+    color: #003366;
+}
+
+main h2 {
+    text-align: center;
+    color: #ffd700;
+}
+
+.multi_col {
+    display: flex;
+}
+
+section,
+aside {
+    border-radius: 20px;
+    border: 2px solid #f1f1f1;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+    width: 75%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.img-style{
+    width: 75%;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #f1f1f1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    border: 1px #f1f1f1;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px #f1f1f1;
+}
+.about_content {
+    text-align: center;
 }
