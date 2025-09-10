@@ -77,7 +77,6 @@ main h2 {
 
 .multi_col {
     display: flex;
-    flex-wrap: wrap;
 }
 
 section,
